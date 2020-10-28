@@ -39,7 +39,7 @@ section{
     align-items: center;
     justify-content: center;
 }
-main{
+div.fotoInicial{
 background-image: url("../Imagem/Sunset.jpg");
 }
 
@@ -65,6 +65,13 @@ section#s3{
 section#s4{
     background-color: rgba(22,141,240,0.7);
     color: whitesmoke;
+}
+
+div.noFlex{
+    width: 60%;
+}
+.imgInitial{
+    margin:0px 1vw 0px 6vw;
 }
 
 footer{

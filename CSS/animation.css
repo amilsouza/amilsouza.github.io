@@ -1,0 +1,20 @@
+@keyframes pop{
+
+}
+
+@keyframes upForDown{
+    from{
+        top: -200px;
+    }
+    to{
+        top: 0px;
+    }
+}
+.animated-pop{
+    animation-name: pop;
+    animation-duration: 2000ms;
+}
+.animated-upForDown{
+    animation-name: upForDown;
+    animation-duration: 2000ms;
+}
