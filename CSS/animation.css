@@ -1,4 +1,11 @@
+
 @keyframes pop{
+    from{
+        font-size: 0px;
+    }
+    to{
+        font-size: -20px;
+    }
 
 }
 
