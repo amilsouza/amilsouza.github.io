@@ -1,4 +1,4 @@
-/*desktop display*/
+/*--------------------------desktop display------------------------------*/
 /*menu */
 header{
     border-radius: 0px 0px 40px 40px;
@@ -22,7 +22,7 @@ a{
 
 
 a:hover{
-    color:rgba(34,254,144,1) ;
+    color:rgb(34, 254, 144) ;
 }
 
 a:active{
@@ -38,14 +38,14 @@ a:active{
 
 }
 nav.menu{
-    font-size: clamp(10px, 4vw, 25px);
+    font-size: clamp(10px, 4vw, 20px);
     width: 60%;
 }
 
 /*sections*/
 section{
     min-height: 90vh;
-    font-size: clamp(15px, 4vw, 25px);
+    font-size: clamp(10px, 4vw, 20px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,8 +55,21 @@ section img{
     border-radius: 20px;
 }
 
+#box{
+    width: 90%;
+    margin: auto auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 div.fotoInicial{
 background-image: url("../Imagem/Sunset.jpg");
+}
+
+section h1{
+
 }
 
 section#s1{
@@ -65,13 +78,14 @@ section#s1{
     text-align: center;
     line-height:3rem;
 }
+
  div.intro{
      width:80%;
      margin:auto;
  }
 
 section#s2{
-    background-color: rgba(34,254,144,0.74);
+    background-color: rgb(0, 255, 55);
     color: whitesmoke;
 }
 
@@ -92,13 +106,25 @@ section#s4{
 }
 
 footer{
-    background-color: rgba(10,10,20);
+    background-color: rgb(48, 53, 50);
     color: whitesmoke;
-    height: 20vh;
+    min-height: 20vh;
 }
 
+footer div{
+    margin-left:10vw;
+}
 
-/*mobile display*/
+footer div h3{
+    margin-bottom:20px;
+}
+
+footer i{
+    color:whitesmoke;
+    margin-right:40px;
+}
+
+/*-------------------------mobile display-----------------------------*/
 @media screen and (max-width: 768px) {
     header{
         border-radius: 0px 0px 20px 20px;
@@ -163,7 +189,7 @@ footer{
         opacity: 1;
     }
 
-    section{
+    #box{
         flex-flow: column;
     }
 
@@ -177,7 +203,12 @@ footer{
         margin:auto;
     }
     .imgInitial{
-        margin: 8vh 1vw 0px 6vw;
+        margin: 8vh 1vw 8vh 6vw;
     }
+
+    footer div h3{
+        margin-bottom: 10px;
+    }
+
     }
 
