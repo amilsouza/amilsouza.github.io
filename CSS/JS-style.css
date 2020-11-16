@@ -1,0 +1,15 @@
+footer{
+    background-color: rgb(48, 53, 50);
+    color: whitesmoke;
+    min-height: 20vh;
+}
+
+footer div{
+    margin-left:10vw;
+}
+
+
+footer i{
+    color:whitesmoke;
+    margin-right:40px;
+}
