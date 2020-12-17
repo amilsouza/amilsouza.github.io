@@ -8,3 +8,17 @@ body{
     font-size: 25px;
     font-family: 'Nunito', sans-serif;
 }
+
+footer{
+    background-color: rgb(48, 53, 50);
+    color: whitesmoke;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
+}
+footer i{
+    color:whitesmoke;
+    margin-right:40px;
+}

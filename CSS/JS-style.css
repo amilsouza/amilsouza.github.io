@@ -5,6 +5,14 @@ header{
     border-radius: 0px 0px 40px 40px;
     width:100vw;
     box-shadow: 4px 4px 10px #20FC8F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header a img{
+    position: absolute;
+    top: 10px; left: 15px;
 }
 
 header h1{
@@ -14,6 +22,7 @@ header h1{
     padding: 2rem;
     color: #fffeff;
 }
+
 /*MAIN*/
 
 main{
