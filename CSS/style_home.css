@@ -26,11 +26,11 @@ a{
 
 
 a:hover{
-    color:rgb(34, 254, 144) ;
+    color:rgba(22,141,240,1);
 }
 
 a:active{
-    color:rgba(22,141,240,1);
+    color:rgb(34, 254, 144);
 }
 
 .nav-links {

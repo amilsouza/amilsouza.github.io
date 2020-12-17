@@ -4,7 +4,7 @@
     padding:0;
 }
 body{
-    background: linear-gradient(100deg, rgb(32, 252, 143) 0%, rgb(25, 143, 240) 100%) no-repeat;
+    background:#fffeff ;
     font-size: 25px;
     font-family: 'Nunito', sans-serif;
 }

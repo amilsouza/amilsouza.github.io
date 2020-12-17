@@ -1,15 +1,53 @@
+/*-------Desktop---------*/
+/*HEADER*/
+header{
+    background-image: url("../Imagem/NavImage_Javascript.jpg");
+    border-radius: 0px 0px 40px 40px;
+    width:100vw;
+    box-shadow: 4px 4px 10px #20FC8F;
+}
+
+header h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    color: #fffeff;
+}
+/*MAIN*/
+
+main{
+    width:70vw;
+    margin:auto;
+    font-size: clamp(10px, 3vw, 25px);
+}
+.box{
+    margin-top:10vh;
+    
+}
+
+/*FOOTER*/
 footer{
     background-color: rgb(48, 53, 50);
     color: whitesmoke;
-    min-height: 20vh;
+    min-height: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
 }
-
-footer div{
-    margin-left:10vw;
-}
-
-
 footer i{
     color:whitesmoke;
     margin-right:40px;
+}
+
+@media (max-width: 786px){
+    header h1{
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 425px){
+    header h1{
+        padding: 0px;
+    }
 }
