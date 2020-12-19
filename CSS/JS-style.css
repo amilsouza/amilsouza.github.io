@@ -65,7 +65,6 @@ a.miniGame{
     main{
         width:80vw;
         margin:auto;
-        font-size: clamp(10px, 4vw, 20px);
     } 
 }
 
@@ -78,7 +77,6 @@ a.miniGame{
     main{
         width:95vw;
         margin:auto;
-        font-size: clamp(10px, 4vw, 20px);
     } 
 
     header a img, a img.imagem{
