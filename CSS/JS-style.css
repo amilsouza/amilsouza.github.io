@@ -46,18 +46,31 @@ a.miniGame{
     border-radius: 20px;
     border:solid 1px rgb(32, 252, 143) ;
 
-    text-decoration:none
+    text-decoration:none;
+
+    color:black;
+    font-weight: 500;
+
+    font-size: clamp(15px, 5vw, 25px);
+}
+
+a.miniGame p{
+    margin-left: 120px;
 }
 
 
 
 /*-----------TABLET---------------*/
 @media (max-width: 786px){
+    header{
+        border-radius: 0px 0px 10px 10px;
+    }
+
     header h1{
         padding: 1rem;
     }
 
-    header a img, a img.imagem{
+    header a img, a img.imagem, a img {
         height: 68px;
         width: 68px;
     }
@@ -75,12 +88,15 @@ a.miniGame{
     }
 
     main{
-        width:95vw;
+        width:90vw;
         margin:auto;
     } 
 
-    header a img, a img.imagem{
+    header a img, a img.imagem,  a img{
         height: 36px;
         width: 36px;
+    }
+    a.miniGame p{
+        margin-left: 60px;
     }
 }
