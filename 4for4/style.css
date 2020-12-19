@@ -1,0 +1,44 @@
+section{
+    margin-top:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:8px;
+}
+.grid{
+    border: 3px solid purple;
+    background:grey;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 287px;
+}
+
+.grid div{
+    border-right: 1px solid white;
+    height: 40px;
+    width: 40px;
+}
+
+.grid div.player-one{
+    background-color:green;
+    border-radius: 20px;
+    border-right: 1px solid green;
+}
+
+.grid div.player-two{
+    background-color: blue;
+    border-radius: 20px;
+    border-right: 1px solid blue;
+}
+
+#instructions{
+    margin-top: 30px;
+    width: 300px;
+}
+
+#button{
+    display:flex;
+    justify-content:space-around;
+}

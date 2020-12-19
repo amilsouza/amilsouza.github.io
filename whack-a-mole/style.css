@@ -1,0 +1,23 @@
+.section{
+    position: relative;
+}
+.square{
+    border-color: brown;
+    border-style: solid;
+    height: 150px;
+    width: 150px;
+}
+.grid{
+    position: absolute;
+    left: 300px;
+    bottom: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 718px;
+}
+.mole{
+    background-image: url(mole.jpg);
+    background-size: cover;
+}

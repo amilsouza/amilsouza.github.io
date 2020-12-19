@@ -1,0 +1,33 @@
+main{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+
+}
+
+.play{
+    background:#edfff6;
+    border:1px solid rgba(32, 252, 143, .8) ;
+    color:rgb(23, 32, 28);
+    
+    margin-top:30px;
+
+    width:10vw;
+    height: 5vh;
+
+    cursor:pointer;
+
+    transition: background 200ms;
+    transition: border-radius 1s;
+}
+
+.play:hover{
+    background:#198FF0;
+    color: #edfff6;
+    border:1px solid #198FF0;
+    border-radius: 20px;
+
+}
+

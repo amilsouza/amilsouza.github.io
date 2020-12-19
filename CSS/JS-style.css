@@ -29,34 +29,60 @@ main{
     width:70vw;
     margin:auto;
     font-size: clamp(10px, 3vw, 25px);
-}
+} 
+
 .box{
     margin-top:10vh;
-    
 }
 
-/*FOOTER*/
-footer{
-    background-color: rgb(48, 53, 50);
-    color: whitesmoke;
-    min-height: 10vh;
-    display:flex;
+a.miniGame{
+    display: flex;
     align-items: center;
-    justify-content:center;
-}
-footer i{
-    color:whitesmoke;
-    margin-right:40px;
+    justify-content: space-around;
+    margin: 5vh 1vw 5vh 1vw;
+
+
+    background: linear-gradient(90deg,rgb(32, 252, 143), #fffeff);
+    border-radius: 20px;
+    border:solid 1px rgb(32, 252, 143) ;
+
+    text-decoration:none
 }
 
+
+
+/*-----------TABLET---------------*/
 @media (max-width: 786px){
     header h1{
         padding: 1rem;
     }
+
+    header a img, a img.imagem{
+        height: 68px;
+        width: 68px;
+    }
+
+    main{
+        width:80vw;
+        margin:auto;
+        font-size: clamp(10px, 3vw, 25px);
+    } 
 }
 
+/*-----------MOBILE---------------*/
 @media (max-width: 425px){
     header h1{
         padding: 0px;
+    }
+
+    main{
+        width:95vw;
+        margin:auto;
+        font-size: clamp(10px, 3vw, 25px);
+    } 
+
+    header a img, a img.imagem{
+        height: 36px;
+        width: 36px;
     }
 }

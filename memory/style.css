@@ -1,0 +1,11 @@
+h2{
+    text-align: center;
+}
+.grid{
+    border-color: royalblue;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+   
+}
