@@ -17,6 +17,19 @@
     }
 }
 
+@keyframes RigthtoLeft{
+    from{
+        right: -300px;
+    }
+    to{
+        right: 0px;
+    }
+}
+.animated-RigthtoLeft{
+    animation-name: RigthtoLeft;
+    animation-duration: 2000ms;
+}
+
 .animated-pop{
     animation-name: pop;
     animation-duration: 2000ms;

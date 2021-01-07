@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
     (function (index) {
       //ad an onclick to each square in your grid
       squares[i].onclick = function () {
-        document.querySelector("#instructions").innerHTML = ".";
         //if square below your current square is taken, you can go ontop of it
         if (squares[index + 7].classList.contains("taken")) {
           if (currentPlayer === play1) {
@@ -149,15 +148,20 @@ function goAgain(){
   let denovo = document.createElement('button');
   let sair = document.createElement('button');
   let sairA = document.createElement("a");
+
+  denovo.setAttribute('id', 'again');
   denovo.setAttribute('class','play');
   denovo.innerHTML = "De novo";
-  sairA.setAttribute('href','botaoiniciar/index.html');
-  sairA.setAttribute('id','buttonExit');
+
   sair.setAttribute('class','play');
   sair.innerHTML = "Sair"
-  document.querySelector('#button').appendChild(denovo);
-  document.querySelector('#button').appendChild(sairA);
+
+  sairA.setAttribute('href','botaoiniciar/index.html');
+
+  document.querySelector("form").appendChild(denovo);
+  document.querySelector("#button").appendChild(sairA);
   sairA.appendChild(sair);
+
   document.querySelector("#vez").innerHTML = " ";
 
 }

@@ -4,7 +4,7 @@ header{
     background-image: url("../Imagem/NavImage_Javascript.jpg");
     border-radius: 0px 0px 40px 40px;
     width:100vw;
-    box-shadow: 4px 4px 10px #20FC8F;
+    box-shadow: 4px 4px 10px #AC1EF9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +40,6 @@ a.miniGame{
     align-items: center;
     justify-content: space-around;
     margin: 5vh 1vw 5vh 1vw;
-
 
     background: linear-gradient(90deg,rgb(32, 252, 143), #fffeff);
     border-radius: 20px;

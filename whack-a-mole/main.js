@@ -5,11 +5,13 @@
   botão de terminar (botao de formulario, carregar pagina novamente)
 
 */
+let sec = document.querySelector('section')
 let go = document.getElementById('comecar')
 go.addEventListener ("click", comecar)
 
 
 function comecar(){
+    sec.removeChild(go)
     let square = document.querySelectorAll(".square")
     const mole = document.querySelectorAll('.mole')
     const Timeleft = document.querySelector('#timeleft')
@@ -54,17 +56,30 @@ function comecar(){
         if (currenTime === 0) {
             clearInterval (timeId)
             alert (`O tempo acabou, vc fez ${result} clicadas certas`)
-            go.value = `De novo`
-           /*
-            var stop = document.createElement('input')
-            stop.setAttribute('type','button')
-            stop.setAttribute('value','parar')
-            stop.setAttribute('id','stop')
-            section.appendChild(stop)
-            */ 
+            goAgain()
         }
         
     }
 
-    let timeId = setInterval(contagem, 1000)
+    let timeId = setInterval(contagem, 800)
 }
+
+function goAgain(){
+    let denovo = document.createElement('button');
+    let sair = document.createElement('button');
+    let sairA = document.createElement("a");
+  
+    denovo.setAttribute('id', 'again');
+    denovo.setAttribute('class','play');
+    denovo.innerHTML = "De novo";
+  
+    sair.setAttribute('class','play');
+    sair.innerHTML = "Sair"
+  
+    sairA.setAttribute('href','botaoiniciar/index.html');
+  
+    document.querySelector("form").appendChild(denovo);
+    document.querySelector("#button").appendChild(sairA);
+    sairA.appendChild(sair);
+  
+  }
