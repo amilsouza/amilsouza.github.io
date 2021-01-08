@@ -9,51 +9,51 @@ document.addEventListener('DOMContentLoaded', () => {
     const cards = [
         {
             nome: 'cheeseburguer',
-            imagem: 'Images/cheeseburger.png'
+            imagem: '/Imagem/Images_Game/cheeseburguer.png'
         },
         {
             nome: 'cheeseburguer',
-            imagem: 'Images/cheeseburger.png'
+            imagem: '/Imagem/Images_Game/cheeseburguer.png'
         },
         {
             nome: 'fries',
-            imagem: 'Images/fries.png'
+            imagem: '/Imagem/Images_Game/fries.png'
         },
         {
             nome: 'fries',
-            imagem: 'Images/fries.png'
+            imagem: '/Imagem/Images_Game/fries.png'
         },
         {
             nome: 'hotdog',
-            imagem: 'Images/hotdog.png'
+            imagem: '/Imagem/Images_Game/hotdog.png'
         },
         {
             nome: 'hotdog',
-            imagem: 'Images/hotdog.png'
+            imagem: '/Imagem/Images_Game/hotdog.png'
         },
         {
             nome: 'ice-cream',
-            imagem: 'Images/ice-cream.png'
+            imagem: '/Imagem/Images_Game/ice-cream.png'
         },
         {
             nome: 'ice-cream',
-            imagem: 'Images/ice-cream.png'
+            imagem: '/Imagem/Images_Game/ice-cream.png'
         },
         {
             nome: 'milkshake',
-            imagem: 'Images/milkshake.png'
+            imagem: '/Imagem/Images_Game/milkshake.png'
         },
         {
             nome: 'milkshake',
-            imagem: 'Images/milkshake.png'
+            imagem: '/Imagem/Images_Game/milkshake.png'
         },
         {
             nome: 'pizza',
-            imagem: 'Images/pizza.png'
+            imagem: '/Imagem/Images_Game/pizza.png'
         },
         {
             nome: 'pizza',
-            imagem: 'Images/pizza.png'
+            imagem: '/Imagem/Images_Game/pizza.png'
         },
     ]
 
@@ -114,7 +114,6 @@ function girarCarta (){
 }
 
 createBoard()
-checarPares ()
 
 })
 
