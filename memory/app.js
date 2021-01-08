@@ -59,7 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 cards.sort(() => 0.5 - Math.random())
 //criando a board
-let section = document.querySelector('section')
 let grid = document.querySelector('.grid')
 let resDisplay = document.querySelector('#score') 
 let cardsEscolhida = []
@@ -85,6 +84,8 @@ function checarPares (){
         //alert('Vc achou !!')
         pares[optionOneId].setAttribute('src','Images/white.png')
         pares[optionTwoId].setAttribute('src','Images/white.png')
+        pares[optionOneId].removeEventListener('click', girarCarta)
+        pares[optionTwoId].removeEventListener('click', girarCarta)
         cardsWon.push(cardsEscolhida)
     }else{
         pares[optionOneId].setAttribute('src','Images/blank.png')
