@@ -51,6 +51,8 @@ a.miniGame{
     font-weight: 500;
 
     font-size: clamp(15px, 5vw, 25px);
+
+    height: 55px;
 }
 
 a.miniGame p{
@@ -82,8 +84,13 @@ a.miniGame p{
 
 /*-----------MOBILE---------------*/
 @media (max-width: 425px){
+    header{
+        height: 60px;
+    } 
+
     header h1{
         padding: 0px;
+        font-size: 34px;
     }
 
     main{

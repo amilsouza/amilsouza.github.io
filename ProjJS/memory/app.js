@@ -9,51 +9,51 @@ document.addEventListener('DOMContentLoaded', () => {
     const cards = [
         {
             nome: 'cheeseburguer',
-            imagem: './Imagem/Images_Game/cheeseburguer.png'
+            imagem: 'ImagesGames/cheeseburger.png'
         },
         {
             nome: 'cheeseburguer',
-            imagem: './Imagem/Images_Game/cheeseburguer.png'
+            imagem: 'ImagesGames/cheeseburger.png'
         },
         {
             nome: 'fries',
-            imagem: './Imagem/Images_Game/fries.png'
+            imagem: 'ImagesGames/fries.png'
         },
         {
             nome: 'fries',
-            imagem: './Imagem/Images_Game/fries.png'
+            imagem: 'ImagesGames/fries.png'
         },
         {
             nome: 'hotdog',
-            imagem: './Imagem/Images_Game/hotdog.png'
+            imagem: 'ImagesGames/hotdog.png'
         },
         {
             nome: 'hotdog',
-            imagem: './Imagem/Images_Game/hotdog.png'
+            imagem: 'ImagesGames/hotdog.png'
         },
         {
             nome: 'ice-cream',
-            imagem: './Imagem/Images_Game/ice-cream.png'
+            imagem: 'ImagesGames/ice-cream.png'
         },
         {
             nome: 'ice-cream',
-            imagem: '/Imagem/Images_Game/ice-cream.png'
+            imagem: 'ImagesGames/ice-cream.png'
         },
         {
             nome: 'milkshake',
-            imagem: './Imagem/Images_Game/milkshake.png'
+            imagem: 'ImagesGames/milkshake.png'
         },
         {
             nome: 'milkshake',
-            imagem: './Imagem/Images_Game/milkshake.png'
+            imagem: 'ImagesGames/milkshake.png'
         },
         {
             nome: 'pizza',
-            imagem: './Imagem/Images_Game/pizza.png'
+            imagem: 'ImagesGames/pizza.png'
         },
         {
             nome: 'pizza',
-            imagem: './Imagem/Images_Game/pizza.png'
+            imagem: 'ImagesGames/pizza.png'
         },
     ]
 
@@ -68,7 +68,7 @@ let cardsWon = []
 function createBoard() {
     for (let i = 0; i < cards.length; i++){
         var card = document.createElement('img')
-        card.setAttribute('src','./Imagem/Images_Game/blank.png')
+        card.setAttribute('src','ImagesGames/blank.png')
         card.setAttribute('data-id', i)
         card.addEventListener('click', girarCarta)
         grid.appendChild(card)
@@ -82,14 +82,14 @@ function checarPares (){
     const optionTwoId = cardsEscolhidaId[1]
     if (cardsEscolhida[0] == cardsEscolhida[1]){
         //alert('Vc achou !!')
-        pares[optionOneId].setAttribute('src','./Imagem/Images_Game/white.png')
-        pares[optionTwoId].setAttribute('src','./Imagem/Images_Game/white.png')
+        pares[optionOneId].setAttribute('src','ImagesGames/white.png')
+        pares[optionTwoId].setAttribute('src','ImagesGames/white.png')
         pares[optionOneId].removeEventListener('click', girarCarta)
         pares[optionTwoId].removeEventListener('click', girarCarta)
         cardsWon.push(cardsEscolhida)
     }else{
-        pares[optionOneId].setAttribute('src','./Imagem/Images_Game/blank.png')
-        pares[optionTwoId].setAttribute('src','./Imagem/Images_Game/blank.png')
+        pares[optionOneId].setAttribute('src','ImagesGames/blank.png')
+        pares[optionTwoId].setAttribute('src','ImagesGames/blank.png')
     }
     cardsEscolhida = []
     cardsEscolhidaId = []
