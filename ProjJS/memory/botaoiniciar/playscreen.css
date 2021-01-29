@@ -32,3 +32,8 @@ main{
 
 }
 
+@media (max-width: 786px){
+    .play{
+        width:75px ;
+    }
+}

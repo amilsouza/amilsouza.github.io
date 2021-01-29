@@ -14,5 +14,18 @@ h2{
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
-   
+}
+
+@media (max-width: 786px){
+    .play {
+        width: 75px;
+    }
+}
+
+
+@media (max-width: 360px){
+    .grid{
+        height: 300px;
+        width: 350px;
+    }
 }
