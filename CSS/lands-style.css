@@ -52,7 +52,6 @@ a.miniGame{
 
     font-size: clamp(15px, 5vw, 25px);
 
-    height: 55px;
 }
 
 a.miniGame p{
@@ -80,6 +79,10 @@ a.miniGame p{
         width:80vw;
         margin:auto;
     } 
+
+    a.miniGame{
+        height: 60px;
+    }
 }
 
 /*-----------MOBILE---------------*/
