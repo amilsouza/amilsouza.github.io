@@ -25,6 +25,10 @@ a{
     text-decoration: none ;
     color:rgba(18,18,20,1);
 }
+a.white{
+    text-decoration: none ;
+    color:rgb(245, 245, 250);
+}
 
 a:hover{
     color:rgba(22,141,240,1);
