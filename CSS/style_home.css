@@ -75,11 +75,11 @@ section img{
 
 div.fotoInicial{
 background-image: url("../Imagem/Sunset.jpg");
+
 }
 
 
 section#s1{
-    background-color: rgba(18,18,20,0.5);
     color: whitesmoke;
     text-align: center;
     line-height:3rem;
