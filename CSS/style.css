@@ -3,6 +3,14 @@
     margin: 0;
     padding:0;
 }
+#box {
+    width: 75%;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
 body{
     background:#fffeff ;
     font-size: 25px;
@@ -21,4 +29,10 @@ footer{
 footer i{
     color:whitesmoke;
     margin-right:40px;
+}
+
+@media (width: 768px) {
+    #box {
+        width: 75%;
+    }
 }

@@ -33,6 +33,7 @@
 .animated-pop{
     animation-name: pop;
     animation-duration: 2000ms;
+    margin: auto;
 }
 .animated-upForDown{
     animation-name: upForDown;

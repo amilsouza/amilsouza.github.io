@@ -1,20 +1,15 @@
 /*--------------------------desktop display------------------------------*/
 /*menu*/
-header{
+nav{
     border-radius: 0px 0px 40px 40px;
     width:100vw ;
+    height: 120px;
     background: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: fixed;
     box-shadow: 4px 4px 10px #20FC8F;
-}
-
-header img{
-    margin-left:15px;
-    margin-top:10px;
-    margin-bottom:10px
 }
 
 section img{
@@ -42,7 +37,7 @@ a:active{
     display: flex;
     list-style: none;
     height: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -53,7 +48,7 @@ nav.menu{
 
 /*sections*/
 section{
-    min-height: 90vh;
+    height: max(60vh, 600px);
     font-size: clamp(10px, 4vw, 20px);
     display: flex;
     align-items: center;
@@ -63,32 +58,16 @@ section{
 section img{
     border-radius: 20px;
 }
-
-#box{
-    width: 90%;
-    margin: auto auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 div.fotoInicial{
 background-image: url("../Imagem/Sunset.jpg");
 
 }
-
-
 section#s1{
-    color: whitesmoke;
+    color: rgb(235, 235, 235);
     text-align: center;
     line-height:3rem;
 }
 
- div.intro{
-     width:80%;
-     margin:auto;
-}
 
 p{
     font-weight: 600;
@@ -136,11 +115,11 @@ footer i{
 
 /*-------------------------mobile display-----------------------------*/
 @media screen and (max-width: 768px) {
-    header{
+    nav{
         border-radius: 0px 0px 20px 20px;
         height: 70px;
     }
-    header img{
+    nav img{
         height: 50px;
         width: 50px;
     }
