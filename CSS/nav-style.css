@@ -19,14 +19,14 @@ nav div ul li{
     margin:0px 10px;
 }
 nav div ul li a{
-    color:#000000;
+    color:#0c0c0c;
     font-weight: 600;
     line-height: 50px;
     font-size: 18px;
     padding: 4px 8px;
 }
 nav div ul li a:hover{
-    color: #1dc6c0;
+    color: #000000;
     border-radius: 5px;
     box-shadow: 0 0 5px #20FC8F,
                 0 0 5px #20FC8F;
@@ -37,17 +37,17 @@ navdiv ul ul li a:hover{
 }
 nav div ul ul{
     position: absolute;
-    top: 90px;
+    top: 70px;
     border-top: 3px solid #20FC8F;
     opacity: 0;
     visibility: hidden;
-    transition: top .3s;
+    transition: top .5s;
 }
 nav div ul ul ul{
     border-top: none;
 }
 nav div ul li:hover > ul{
-    top: 70px;
+    top: 50px;
     opacity:1;
     visibility: visible;
 }
@@ -58,6 +58,7 @@ nav div ul ul li{
     float: none;
     display: list-item;
     border-bottom: 1px solid rgba(0,0,0,0.3);
+    padding-left: 10px;
 }
 nav div ul ul li a{
     line-height:50px;
@@ -66,4 +67,51 @@ nav div ul ul ul li{
     position: relative;
     top: -70px;
     left: 150px;
+}
+.show, input{
+    display: none;
+}
+
+@media all and (max-width: 986px){
+    nav ul{
+        margin-right: 0px;
+        float: left;
+    }
+    nav.logo{
+        padding-left:30px;
+        width:100%;
+    }
+    nav ul li, nav ul ul li{
+        display: block;
+        width: 100%;
+    }
+    nav ul ul{
+        position: static;
+        top: 70px;
+        border-top:none;
+        float:none;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+    .show{
+        display: block;
+        color:white;
+        font-size: 18px;
+        padding:0px 20px;
+        line-height: 70px;
+        cursor:pointer;
+    }
+    .show:hover{
+        color: #1dc6c0;
+    }
+    .icon{
+        display: block;
+        color: white;
+        position: absolute;
+    }
+    nav ul li a:houver{
+        box-shadow: none;
+    }
+
 }

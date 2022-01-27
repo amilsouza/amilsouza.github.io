@@ -12,28 +12,35 @@
     <link rel="stylesheet" href="CSS/animation.css" />
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/style_home.css" />
-    <link rel="stylesheet" href="CSS/nav-style.css">
+    <link rel="stylesheet" href="CSS/nav-style.css"/>
+    <link rel="stylesheet" href="file:///E:/fontawesome/css/all.css">
     <title>Welcome | AS</title>
   </head>
   <body>
     <nav class="animated-upForDown">
       <div id="box">
         <ul>
+          <label for="btn-1" class="show">Sobre min +</label>
           <li>
             <a href="#">Sobre min</a>
+            <input type="checkbox" value="btn-1">
             <ul>
               <li><a href="#">Pages</a></li>
               <li><a href="#">Elements</a></li>
               <li><a href="#">Icons</a></li>
             </ul>
           </li>
+          <label for="btn-2" class="show">Projetos +</label>
           <li>
             <a href="#">Projetos</a>
+            <input type="checkbox" value="btn-2">
             <ul>
               <li><a href="#">Web Design</a></li>
               <li><a href="#">App Desingn</a></li>
+              <label for="btn-3" class="show">More +</label>
               <li>
-                  <a href="#">More   ...</a>
+                  <a href="#">More ...</a>
+                  <input type="checkbox" value="btn-3">
                   <ul>
                       <li><a href="#">Submenu-1</a></li>
                       <li><a href="#">Submenu-2</a></li>
@@ -43,7 +50,11 @@
             </ul>
           </li>
         </ul>
-        <img src="Imagem/Logo.png" alt="Logo" height="80px" width="80px">
+        <div class="logo"><img src="Imagem/Logo.png" alt="Logo" height="65px" width="65px"></div>
+        <label for="btn" class="icon">
+          <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
         <ul>
             <li><a href="#" title="meu portfolio completo" >Portfolio</a></li>
             <li><a href="#">Contato</a></li>
